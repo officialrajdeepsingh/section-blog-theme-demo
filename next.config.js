@@ -7,7 +7,7 @@ const withNextra = require("nextra")({
  
 module.exports = withNextra({
   output: 'export',
-  basePath: "https://officialrajdeepsingh.github.io/section-blog-theme-demo/",
+  basePath: "https://officialrajdeepsingh.github.io/section-blog-theme-demo",
   images:{
     unoptimized: true
   }
