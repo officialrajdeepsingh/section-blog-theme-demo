@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
-module.exports = nextConfig
+const withNextra = require("nextra")({
+  theme: "section-blog-theme",
+  themeConfig: "./theme.config.jsx",
+});
+ 
+module.exports = withNextra(); 
