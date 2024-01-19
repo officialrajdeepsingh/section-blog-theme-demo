@@ -1,42 +1,40 @@
-## Getting Started
+# Section Blog Theme: A Minimalist blog Theme
 
-Frst clone a the [section blog theme demo](https://github.com/officialrajdeepsingh/section-blog-theme-demo) repository.
+Section Blog Theme is a static generation Minimalist blog theme built with nextjs, nextra, tailwind CSS, Typescript, and shadcn UI.
 
-```bash
-git clone https://github.com/officialrajdeepsingh/section-blog-theme-demo.git
-# or
-gh repo clone officialrajdeepsingh/section-blog-theme-demo
+## Demo
 
-# change the repository
-cd section-blog-theme-demo
-```
+[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
 
-Install the node.js package using node package manager.
+## Deploy your own
 
-```bash
-npm install
-# or
-yarm install
-# orpnpm install
-```
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/section-blog-theme)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=section-blog-theme)
 
 
-Lastly, run the development server:
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app --example section-blog-theme
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+yarn create next-app --example section-blog-theme
+```
 
-## Stack
+```bash
+pnpm create next-app --example section-blog-theme
+```
 
-- [Nextjs](https://nextjs.org/)
-- [Nextra](https://nextra.site)
-- [Section Blog Theme](https://section-blog-theme-docs.vercel.app)
+Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/frontendweb3/section-theme-blog/discussions).
+
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation]()).
+
+# Notes
+
+Shadcn UI comes with theme functionality, You can use any [Shadcn UI theme with a section blog theme](https://section-blog-theme-docs.vercel.app/docs/theme).
+
+* To learn more, [read our documentation](https://section-blog-theme-docs.vercel.app).
