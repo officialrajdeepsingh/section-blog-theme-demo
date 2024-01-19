@@ -2,7 +2,16 @@ const themeConfig = {
   settings: {
     title: "Start your blog or portfolio using MDX, Next.Js, and Nextra.",
     description: "Section blog theme is build with Nextjs and tailwind css.",
-    SiteURL: "https://officialrajdeepsingh.github.io/section-blog-theme-demo/"
+    SiteURL: "https://officialrajdeepsingh.github.io/section-blog-theme-demo/",
+    defaultSEO: {
+      title: "Start your blog or portfolio using MDX, Next.Js, and Nextra.",
+      titleTemplate: '%s | Section Blog Theme',
+      twitter: {
+        handle: "@FrontendWeb3",
+        site: "FrontendWeb3",
+        cardType: "summary_large_image",
+      }
+    }
   },
   SocialLinks: [
     {
