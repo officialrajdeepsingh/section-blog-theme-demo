@@ -4,34 +4,45 @@ Section Blog Theme is a static generation Minimalist blog theme built with nextj
 
 ## Demo
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/section-blog-theme)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=section-blog-theme)
+[https://next-blog-starter.vercel.app/](https://section-blog-theme-demo.vercel.app/)
 
 
 ## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example section-blog-theme
-```
+Frst clone a the [section blog theme demo](https://github.com/officialrajdeepsingh/section-blog-theme-demo) repository.
 
 ```bash
-yarn create next-app --example section-blog-theme
+git clone https://github.com/officialrajdeepsingh/section-blog-theme-demo.git
+# or
+gh repo clone officialrajdeepsingh/section-blog-theme-demo
+
+# change the repository
+cd section-blog-theme-demo
 ```
+
+Install the node.js package using node package manager.
 
 ```bash
-pnpm create next-app --example section-blog-theme
+npm install
+# or
+yarm install
+# orpnpm install
 ```
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/frontendweb3/section-theme-blog/discussions).
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation]()).
+Lastly, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 
 # Notes
 
