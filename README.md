@@ -25,7 +25,8 @@ Install the node.js package using node package manager.
 npm install
 # or
 yarm install
-# orpnpm install
+# or
+pnpm install
 ```
 
 
