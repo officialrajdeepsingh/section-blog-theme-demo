@@ -2,7 +2,7 @@ const themeConfig = {
   settings: {
     title: "Start your blog or portfolio using MDX, Next.Js, and Nextra.",
     description: "Section blog theme is build with Nextjs and tailwind css.",
-    SiteURL: "https://officialrajdeepsingh.github.io/section-blog-theme-demo/",
+    SiteURL: "https://section-blog-theme-demo.vercel.app/",
     defaultSEO: {
       title: "Start your blog or portfolio using MDX, Next.Js, and Nextra.",
       titleTemplate: '%s | Section Blog Theme',
@@ -52,6 +52,28 @@ const themeConfig = {
     {
       href: "/posts",
       title: "Blog",
+    },
+    {
+      title: "Projects",
+      subNav: true,
+      subNavigation: [
+        {
+          title: "Personal Blog",
+          href: "https://officialrajdeepsingh.dev/",
+          description: "Check out my personal portfolio blog website.",
+        },
+        {
+          title: "Section Blog Theme",
+          href: "https://github.com/frontendweb3/section-blog-theme",
+          description: "Section blog theme is nextra based theme.",
+        },
+        {
+          title: "Awesome Nextjs",
+          href: "https://github.com/officialrajdeepsingh/awesome-nextjs",
+          description:
+            "A curated list of awesome Nextjs-based libraries that help build small and large-scale applications with next.js.",
+        },
+      ],
     },
     {
       href: "/about",
