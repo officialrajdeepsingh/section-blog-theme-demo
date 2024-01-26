@@ -1,4 +1,4 @@
-# Section Blog Theme: A Minimalist blog Theme
+# Section Blog Theme: A Minimalist Blog Theme
 
 Section Blog Theme is a static generation Minimalist blog theme built with nextjs, nextra, tailwind CSS, Typescript, and shadcn UI.
 
@@ -8,7 +8,8 @@ Section Blog Theme is a static generation Minimalist blog theme built with nextj
 
 
 ## How to use
-Frst clone a the [section blog theme demo](https://github.com/officialrajdeepsingh/section-blog-theme-demo) repository.
+
+First, clone the [section blog theme demo](https://github.com/officialrajdeepsingh/section-blog-theme-demo) repository.
 
 ```bash
 git clone https://github.com/officialrajdeepsingh/section-blog-theme-demo.git
@@ -19,7 +20,7 @@ gh repo clone officialrajdeepsingh/section-blog-theme-demo
 cd section-blog-theme-demo
 ```
 
-Install the node.js package using node package manager.
+Install the node.js package using the node package manager.
 
 ```bash
 npm install
